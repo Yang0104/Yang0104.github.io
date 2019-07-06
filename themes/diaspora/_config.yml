@@ -1,8 +1,8 @@
 # 头部菜单，title: link
 menu:
   Whoami: /whoami
-  Github: https://github.com/Fechin
-  Twitter: https://twitter.com/FechinLi
+  Github: https://github.com/yang0104
+  # Twitter: https://twitter.com/FechinLi
 
 # 是否显示目录
 TOC: false

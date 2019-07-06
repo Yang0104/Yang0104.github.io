@@ -1,289 +1,2287 @@
-
 <!DOCTYPE html>
-<html lang class="loading">
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<html class="theme-next muse use-motion" lang="zh-Hans">
 <head><meta name="generator" content="Hexo 3.9.0">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Hexo</title>
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="google" content="notranslate">
-    <meta name="keywords" content="Fechin,"> 
-    
-    <meta name="author" content="John Doe"> 
-    <link rel="alternative" href="atom.xml" title="Hexo" type="application/atom+xml"> 
-    <link rel="icon" href="/img/favicon.png"> 
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
-    <link rel="stylesheet" href="/css/diaspora.css">
-    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <script>
-         (adsbygoogle = window.adsbygoogle || []).push({
-              google_ad_client: "ca-pub-8691406134231910",
-              enable_page_level_ads: true
-         });
-    </script>
-    <script async custom-element="amp-auto-ads" src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
-    </script>
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css?v=4.7.0">
+
+<link rel="stylesheet" href="/css/main.css?v=7.2.0">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=7.2.0">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=7.2.0">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=7.2.0">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=7.2.0" color="#222">
+
+
+
+
+
+
+
+<script id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Muse',
+    version: '7.2.0',
+    sidebar: {"position":"left","display":"post","offset":12,"onmobile":false,"dimmer":false},
+    back2top: true,
+    back2top_sidebar: false,
+    fancybox: false,
+    fastclick: false,
+    lazyload: false,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+  
+
+
+
+
+  <meta property="og:type" content="website">
+<meta property="og:title" content="惊蛰">
+<meta property="og:url" content="http://yoursite.com/page/2/index.html">
+<meta property="og:site_name" content="惊蛰">
+<meta property="og:locale" content="zh-Hans">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="惊蛰">
+
+
+
+
+
+  
+  
+  <link rel="canonical" href="http://yoursite.com/page/2/">
+
+
+
+<script id="page.configurations">
+  CONFIG.page = {
+    sidebar: "",
+  };
+</script>
+
+  <title>惊蛰</title>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .motion-element,
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-title { opacity: initial; }
+
+  .use-motion .logo,
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
 </head>
-</html>
-<body class="loading">
-    <span id="config-title" style="display:none">Hexo</span>
-    <div id="loader"></div>
-    <div class="nav">
-    <ul id="menu-menu" class="menu">
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left 
+  page-home">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">惊蛰</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+    
+      
+        <p class="site-subtitle">Be the light</p>
+      
+    
+    
+  </div>
+
+  <div class="site-nav-toggle">
+    <button aria-label="Navigationsleiste an/ausschalten">
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  
+    <ul id="menu" class="menu">
+      
         
-        <li class="pview menu-item menu-item-type-post_type menu-item-object-page">
-            <a href="/whoami/" title="Whoami" target="_blank" rel="noopener">Whoami</a>
-        </li>
         
-        <li class="  menu-item menu-item-type-post_type menu-item-object-page">
-            <a href="https://github.com/Fechin" title="Github" target="_blank" rel="noopener">Github</a>
-        </li>
         
-        <li class="  menu-item menu-item-type-post_type menu-item-object-page">
-            <a href="https://twitter.com/FechinLi" title="Twitter" target="_blank" rel="noopener">Twitter</a>
-        </li>
+          
+          <li class="menu-item menu-item-home">
+
+    
+    
+      
+    
+
+    
+
+    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br>Startseite</a>
+
+  </li>
         
+        
+        
+          
+          <li class="menu-item menu-item-archives">
+
+    
+    
+      
+    
+
+    
+
+    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>Archiv</a>
+
+  </li>
+
+      
+      
     </ul>
-    <p id="copyright">
-        &copy; 2019 John Doe.
-        Powered by <a href="http://hexo.io/" title="Hexo" target="_blank" rel="noopener">Hexo</a>
-        Theme <a href="https://github.com/Fechin/hexo-theme-diaspora" title="Diaspora" target="_blank" rel="noopener">Diaspora</a>
-        by Fechin
-    </p>
-</div>
+  
 
-<div id="container">
+  
     
-<div id="screen">
-    <div id="mark">
-        <div class="layer" data-depth="0.4">
-            <img src="/img/welcome-cover.jpg" id="cover" crossorigin="anonymous" width="1920" height="1080">
-        </div>
-    </div>
-    <div id="vibrant">
-        <svg viewBox="0 0 2880 1620" height="100%" preserveAspectRatio="xMaxYMax slice">
-            <polygon opacity="0.7" points="2000,1620 0,1620 0,0 600,0 "/>
-        </svg>
-        <div></div>
-    </div>
-    <div id="header">
-        <div>
-            <a class="image-logo" href="/"></a>
-            <div class="icon-menu switchmenu"></div>
-        </div>
-    </div>
-    
-    <div id="post0">
-        <p>十一月 19, 2018</p>
-        <h2><a href="/2018/11/19/水中氯离子的测定-滴定法/" title="水中氯离子的测定-滴定法" class="posttitle">水中氯离子的测定-滴定法</a></h2>
-        <p class="summary">方法概要以铬酸钾为指示剂，在pH为5~9.5的范围内，用硝酸银标准溶液滴定，硝酸银与氯化物反应生成氯化银白色沉淀，...</p>
-    </div>
-    
-</div>
 
-    <div id="primary">
+  
+
+  
+</nav>
+
+
+
+  
+
+
+
+</div>
+    </header>
+
+    
+
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+          <div id="content" class="content">
+            
+  <section id="posts" class="posts-expand">
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/11/19/水中氯离子的测定-滴定法/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="杨旭洋">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="惊蛰">
+    </span>
+
+    
+      <header class="post-header">
+
         
-<div class="post">
-    <a href="/2018/11/19/水中氯离子的测定-滴定法/" title="水中氯离子的测定-滴定法">
-        <img src="/img/cover.jpg" class="cover" width="680" height="440">
-    </a>
-    <div class="else">
-        <p>十一月 19, 2018</p>
-        <h3><a href="/2018/11/19/水中氯离子的测定-滴定法/" title="水中氯离子的测定-滴定法" class="posttitle">水中氯离子的测定-滴定法</a></h3>
-        <p>方法概要以铬酸钾为指示剂，在pH为5~9.5的范围内，用硝酸银标准溶液滴定，硝酸银与氯化物反应生成氯化银白色沉淀，当有过量硝酸银存在时，则与铬酸钾指示剂反...</p>
-    </div>
-</div>
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2018/11/19/水中氯离子的测定-滴定法/" class="post-title-link" itemprop="url">水中氯离子的测定-滴定法</a>
+              
+            
+          </h1>
+        
 
+        <div class="post-meta">
 
-<div class="post">
-    <a href="/2018/11/18/水中硫酸盐含量的测定/" title="水中硫酸盐含量的测定">
-        <img src="/img/cover.jpg" class="cover" width="680" height="440">
-    </a>
-    <div class="else">
-        <p>十一月 18, 2018</p>
-        <h3><a href="/2018/11/18/水中硫酸盐含量的测定/" title="水中硫酸盐含量的测定" class="posttitle">水中硫酸盐含量的测定</a></h3>
-        <p>重量法方法概要在酸性条件下硫酸盐与氯化钡反应，生成硫酸钡沉淀，经过滤干燥称量后，根据硫酸钡质量可求出硫酸根含量。
-适用范围适用于工业循环冷却水和锅炉用水中...</p>
-    </div>
-</div>
+          
+          
+          
 
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Veröffentlicht am</span>
+              
 
-<div class="post">
-    <a href="/2018/11/18/水质浊度的测定-散射光法/" title="水质浊度的测定-散射光法">
-        <img src="/img/cover.jpg" class="cover" width="680" height="440">
-    </a>
-    <div class="else">
-        <p>十一月 18, 2018</p>
-        <h3><a href="/2018/11/18/水质浊度的测定-散射光法/" title="水质浊度的测定-散射光法" class="posttitle">水质浊度的测定-散射光法</a></h3>
-        <p>方法概要以福尔马肼聚合物作为浊度标准对照溶液，用散射光原理的浊度计测定水样的浊度。
-适用范围适用于工业循环冷却水中浊度测定，测定范围0-50NTU。
-仪器...</p>
-    </div>
-</div>
+              
+                
+              
 
+              <time title="Erstellt: 2018-11-19 20:56:11" itemprop="dateCreated datePublished" datetime="2018-11-19T20:56:11+08:00">2018-11-19</time>
+            </span>
+          
 
-<div class="post">
-    <a href="/2018/11/17/水中磷酸盐含量的测定-分光光度法/" title="水中磷酸盐含量的测定-分光光度法">
-        <img src="/img/cover.jpg" class="cover" width="680" height="440">
-    </a>
-    <div class="else">
-        <p>十一月 17, 2018</p>
-        <h3><a href="/2018/11/17/水中磷酸盐含量的测定-分光光度法/" title="水中磷酸盐含量的测定-分光光度法" class="posttitle">水中磷酸盐含量的测定-分光光度法</a></h3>
-        <p> 
+          
+            
 
-概述本方法用于水中正磷酸盐和总磷酸盐含量的测定。
-正磷酸盐的测定方法概要在酸性条件下，正磷酸盐与钼酸铵溶液反应生成黄色的磷钼酸盐锑络合物，再用抗坏血...</p>
-    </div>
-</div>
+            
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Bearbeitet am</span>
+                
+                <time title="Geändert am: 2019-07-05 21:51:39" itemprop="dateModified" datetime="2019-07-05T21:51:39+08:00">2019-07-05</time>
+              </span>
+            
+          
 
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">in</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/水质检测/" itemprop="url" rel="index"><span itemprop="name">水质检测</span></a></span>
 
-<div class="post">
-    <a href="/2018/11/17/水中总硬度的测定-滴定法/" title="水中总硬度的测定-滴定法">
-        <img src="/img/cover.jpg" class="cover" width="680" height="440">
-    </a>
-    <div class="else">
-        <p>十一月 17, 2018</p>
-        <h3><a href="/2018/11/17/水中总硬度的测定-滴定法/" title="水中总硬度的测定-滴定法" class="posttitle">水中总硬度的测定-滴定法</a></h3>
-        <p>
+                
+                
+              
+            </span>
+          
 
-高硬度的测定方法概要在pH=10±0.1的水溶液中，用铬黑T作指示剂，以乙二胺四乙酸二钠盐(EDTA)标准滴定溶液滴定至蓝色，即为终点，根据消耗EDT...</p>
-    </div>
-</div>
+          
+            
+            
+          
 
+          
+          
 
-<div class="post">
-    <a href="/2018/11/17/水中总碱及酚酞碱度的测定-滴定法/" title="水中总碱及酚酞碱度的测定-滴定法 ">
-        <img src="/img/cover.jpg" class="cover" width="680" height="440">
-    </a>
-    <div class="else">
-        <p>十一月 17, 2018</p>
-        <h3><a href="/2018/11/17/水中总碱及酚酞碱度的测定-滴定法/" title="水中总碱及酚酞碱度的测定-滴定法 " class="posttitle">水中总碱及酚酞碱度的测定-滴定法 </a></h3>
-        <p>
+          
 
-方法概要采用指示剂法，用盐酸标准滴定溶液滴定水样，终点为pH=8.3时，可认为近似等于碳酸盐和二氧化碳的浓度并表示水样中存在的几乎所有的氢氧化物和二分...</p>
-    </div>
-</div>
+          <br>
+          
 
+          
 
-<div class="post">
-    <a href="/2018/11/17/Vscode前端快捷键及字符补全方法/" title="Vscode前端快捷键及字符补全方法">
-        <img src="/img/cover.jpg" class="cover" width="680" height="440">
-    </a>
-    <div class="else">
-        <p>十一月 17, 2018</p>
-        <h3><a href="/2018/11/17/Vscode前端快捷键及字符补全方法/" title="Vscode前端快捷键及字符补全方法" class="posttitle">Vscode前端快捷键及字符补全方法</a></h3>
-        <p>
-快捷键的使用
-补全代码
+          
 
-
-多项输入: ,例如：ul&gt;li5 
- 
- 
- 
- 
- 
- 
-Class类：. , 缩写：div.top*2（Class...</p>
-    </div>
-</div>
-
-
-<div class="post">
-    <a href="/2018/11/17/水质pH的测定-玻璃电极法/" title="水质pH的测定-玻璃电极法">
-        <img src="/img/cover.jpg" class="cover" width="680" height="440">
-    </a>
-    <div class="else">
-        <p>十一月 17, 2018</p>
-        <h3><a href="/2018/11/17/水质pH的测定-玻璃电极法/" title="水质pH的测定-玻璃电极法" class="posttitle">水质pH的测定-玻璃电极法</a></h3>
-        <p>方法概要将规定的指示电极和参比电极浸入同一被测溶液中，形成原电池，pH由测量电池的电动势而得，通常由饱和的甘汞电极为参比电极，玻璃电极为指示电极。
-适用范...</p>
-    </div>
-</div>
-
-
-<div class="post">
-    <a href="/2018/10/04/helloWorld/" title="hello_world">
-        <img src="/img/cover.jpg" class="cover" width="680" height="440">
-    </a>
-    <div class="else">
-        <p>十月 04, 2018</p>
-        <h3><a href="/2018/10/04/helloWorld/" title="hello_world" class="posttitle">hello_world</a></h3>
-        <p>
-
-
-
-关于搭建自己的博客一直有这样的想法，起初没有头绪，在知乎上闲逛时知道了GitHub page，后来又了解了hexo。几经折腾，花了一个晚上看了一点...</p>
-    </div>
-</div>
-
-
-    </div>
+        </div>
+      </header>
     
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h1 id="方法概要"><a href="#方法概要" class="headerlink" title="方法概要"></a>方法概要</h1><p>以铬酸钾为指示剂，在pH为5~9.5的范围内，用硝酸银标准溶液滴定，硝酸银与氯化物反应生成氯化银白色沉淀，当有过量硝酸银存在时，则与铬酸钾指示剂反应生成砖红色铬酸银，表示反应达到终点。反应式如下：<br> $$Ag^+ +Cl^-\longrightarrow AgCl\downarrow(白色)$$<br> $$2Ag^+ +CrO_{4}^{2-}\longrightarrow Ag_2CrO_4\downarrow(砖红色)$$</p>
+<h1 id="适用范围"><a href="#适用范围" class="headerlink" title="适用范围"></a>适用范围</h1><p>适用于工业循环冷却水、天然水、以软化水为补给水的锅炉炉水中氯离子含量的测定，其范围3mg/L~150mg/L。</p>
+<h1 id="材料、试剂"><a href="#材料、试剂" class="headerlink" title="材料、试剂"></a>材料、试剂</h1><p>锥形瓶：250mL；<br>滴定管：棕色酸式滴定管，50mL；<br>移液管：25mL；<br>酚酞指示剂：10g/L乙醇溶液；<br>硝酸溶液：1+300；<br>氢氧化钠溶液：2g/L；<br>硝酸银标准溶液：$c(AgNO_3)$=0.01mol/L；<br>铬酸钾指示剂：50g/L。 </p>
+<h1 id="样品检测"><a href="#样品检测" class="headerlink" title="样品检测"></a>样品检测</h1><p>移取25.00mL水样于锥形瓶中，加入2滴酚酞指示剂，用氢氧化钠溶液或硝酸溶液调节水样pH，使红色刚好变成无色；<br>加入1.00mL铬酸钾指示剂，在不断摇动情况下，在白色背景下用硝酸银标准溶液滴定至出现砖红色沉淀不再消失为终点，同时做空白试验。</p>
+<h1 id="计算"><a href="#计算" class="headerlink" title="计算"></a>计算</h1><p>水样中氯离子含量以质量浓度$ρ_1$计，数值以$Cl^-(mg/L)$表示，按下式计算：<br> $$ρ_1=\cfrac{(V_1-V_0)\times c\times M}{1000\times V_W}\times10^6$$<br>式中：<br>$V_1$——滴定水样时硝酸银标准溶液消耗量，mL；<br>$V_0$——空白试验时硝酸银标准溶液消耗量，mL；<br>c——硝酸银标准溶液浓度，mol/L；<br>$V_W$——水样体积，mL；<br>M——氯离子摩尔质量分数（M=35.45），g/mol 。    </p>
+<h1 id="结果表示"><a href="#结果表示" class="headerlink" title="结果表示"></a>结果表示</h1><p>分析结果的数值按<strong>GB 8170-2008《数值修约规则与极限数值的表示和判定》</strong>中的数值修约规则进行修约，结果保留小数点后两位。</p>
+<h1 id="质量控制"><a href="#质量控制" class="headerlink" title="质量控制"></a>质量控制</h1><p>两次平行性测定结果的绝对差值不大于0.5mg/L。</p>
+<h1 id="附件"><a href="#附件" class="headerlink" title="附件"></a>附件</h1><p>引用标准<strong>GB/T15453-2018 《工业循环冷却水和锅炉用水中氯离子的测定》</strong>。</p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/11/18/水中硫酸盐含量的测定/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="杨旭洋">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="惊蛰">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2018/11/18/水中硫酸盐含量的测定/" class="post-title-link" itemprop="url">水中硫酸盐含量的测定</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+
+          
+          
+          
+
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Veröffentlicht am</span>
+              
+
+              
+                
+              
+
+              <time title="Erstellt: 2018-11-18 15:22:35" itemprop="dateCreated datePublished" datetime="2018-11-18T15:22:35+08:00">2018-11-18</time>
+            </span>
+          
+
+          
+            
+
+            
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Bearbeitet am</span>
+                
+                <time title="Geändert am: 2019-07-05 21:51:39" itemprop="dateModified" datetime="2019-07-05T21:51:39+08:00">2019-07-05</time>
+              </span>
+            
+          
+
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">in</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/水质检测/" itemprop="url" rel="index"><span itemprop="name">水质检测</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          <br>
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h1 id="重量法"><a href="#重量法" class="headerlink" title="重量法"></a>重量法</h1><h2 id="方法概要"><a href="#方法概要" class="headerlink" title="方法概要"></a>方法概要</h2><p>在酸性条件下硫酸盐与氯化钡反应，生成硫酸钡沉淀，经过滤干燥称量后，根据硫酸钡质量可求出硫酸根含量。</p>
+<h2 id="适用范围"><a href="#适用范围" class="headerlink" title="适用范围"></a>适用范围</h2><p>适用于工业循环冷却水和锅炉用水中硫酸盐含量（以$SO_{4}^{2-}$计）不小于10mg/L的测定，不适用于使用钡盐阻垢分散剂的工业循环冷却水中硫酸盐的测定。</p>
+<h2 id="材料、试剂"><a href="#材料、试剂" class="headerlink" title="材料、试剂"></a>材料、试剂</h2><p>烧杯：500mL；<br>坩埚式过滤器：滤板孔径5~15µm；<br>移液管：50mL；<br>盐酸溶液：1+1；<br>氯化钡溶液（BaSO4·2H2O）：100g/L；<br>硝酸银溶液：17g/L；<br>甲基橙指示剂：1g/L。</p>
+<h2 id="样品检测"><a href="#样品检测" class="headerlink" title="样品检测"></a>样品检测</h2><p>用慢速定量滤纸过滤水样，移取过滤后水样50.00mL，置于500mL烧杯中，加2滴甲基橙指示液，滴加盐酸溶液至红色并过量2.00mL，加水至总体积为200mL。煮沸5min后，搅拌下缓慢加入10.00mL热的（约80℃）氯化钡溶液，于80℃水浴中放置2h。<br>冷却至室温，用已于（105±2）℃干燥至恒重的坩埚式过滤器过滤，用水洗涤沉淀，直至滤液中无氯离子为止（用硝酸银溶液检验），然后将坩埚式过滤器在（105±2）℃下干燥至恒重。</p>
+<h2 id="计算"><a href="#计算" class="headerlink" title="计算"></a>计算</h2><p>水样中硫酸盐含量（以$SO_{4}^{2-}$计）以质量浓度$ρ_1$计，数值以mg/L表示，按下式计算：<br> $$ρ_1=\cfrac{(m-m_0)\times M_1/M_2\times10^6}{V_0}$$<br>式中：<br>m——沉淀与坩埚式过滤器的质量，g；<br>$m_0$——坩埚式过滤器的质量，g；<br>$V_0$——移取试样的体积，mL。<br>$M_1$——硫酸根的摩尔质量（$M_1$=96.06），g/mol；<br>$M_2$——硫酸钡的摩尔质量（$M_2$=233.4），g/mol。</p>
+<h1 id="络合滴定法"><a href="#络合滴定法" class="headerlink" title="络合滴定法"></a>络合滴定法</h1><h2 id="方法概要-1"><a href="#方法概要-1" class="headerlink" title="方法概要"></a>方法概要</h2><p>在酸性条件下钡离子与样品中硫酸根反应，生成难溶的硫酸钡沉淀，过剩的钡离子用EDTA标准溶液滴定，间接测定硫酸根含量。</p>
+<h2 id="适用范围-1"><a href="#适用范围-1" class="headerlink" title="适用范围"></a>适用范围</h2><p>适用于天然水、循环冷却水、生活污水中硫酸盐的测定。</p>
+<h2 id="材料、试剂-1"><a href="#材料、试剂-1" class="headerlink" title="材料、试剂"></a>材料、试剂</h2><p>锥形瓶：250ml；<br>滴定管：酸式，50mL；<br>移液管：10mL；<br>钡镁混合溶液：0.025mol/L；<br>氨-氯化铵缓冲溶液：PH=10；<br>铬黑T指示剂：5g/L；<br>盐酸溶液：1+1；<br>乙二胺四乙酸二钠：0.01mol/L。</p>
+<h2 id="样品检测-1"><a href="#样品检测-1" class="headerlink" title="样品检测"></a>样品检测</h2><p>移取水样50mL于250mL锥形瓶中，滴加盐酸（1+1）溶液6滴酸化试样，将试样放在电热板上加热煮沸1～3min，除去二氧化碳，趁热加入10mL钡镁混合溶液，继续煮沸。待试样冷却至室温后加入10mL氨缓冲溶液，4滴铬黑T指示剂，用EDTA标准溶液滴定，溶液由酒红色变为亮蓝色为终点。同时用蒸馏水做空白。另取一份等体积水样检测硬度，滴定体积为V1。</p>
+<h2 id="计算-1"><a href="#计算-1" class="headerlink" title="计算"></a>计算</h2><p>水样中硫酸根含量以硫酸根计，单位为mg/ L,按下式计算：</p>
+<p> $$SO_{4}^{2-}(mg/L)=\cfrac{C\times[b-(V_0-V_1)]\times96.06\times1000}{V}$$</p>
+<p>式中：<br>C——EDTA标准溶液的浓度，mol/L；<br>b——空白试验消耗EDTA标准溶液体积，mL；<br>$V_0$——硫酸根测定时，滴定试样消耗EDTA标准溶液体积，mL；<br>$V_1$——试样测定硬度时，消耗EDTA标准溶液体积，mL；<br>V——水样体积，mL；<br>96.06——硫酸根的摩尔质量的数值，g/moL。</p>
+<h2 id="结果表示"><a href="#结果表示" class="headerlink" title="结果表示"></a>结果表示</h2><p>分析结果的数值按<strong>GB 8170-2008《数值修约规则与极限数值的表示和判定》</strong>中的数值修约规则进行修约，结果保留小数点后两位。</p>
+<h2 id="质量控制"><a href="#质量控制" class="headerlink" title="质量控制"></a>质量控制</h2><p>两次平行测定结果绝对差值不大于0.5mg/L。</p>
+<h2 id="附件"><a href="#附件" class="headerlink" title="附件"></a>附件</h2><p>引用标准  <strong>GB/T 6911-2017《工业循环冷却水和锅炉用水中硫酸盐的测定》</strong>。</p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/11/18/水质浊度的测定-散射光法/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="杨旭洋">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="惊蛰">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2018/11/18/水质浊度的测定-散射光法/" class="post-title-link" itemprop="url">水质浊度的测定-散射光法</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+
+          
+          
+          
+
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Veröffentlicht am</span>
+              
+
+              
+                
+              
+
+              <time title="Erstellt: 2018-11-18 14:33:39" itemprop="dateCreated datePublished" datetime="2018-11-18T14:33:39+08:00">2018-11-18</time>
+            </span>
+          
+
+          
+            
+
+            
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Bearbeitet am</span>
+                
+                <time title="Geändert am: 2019-07-05 21:51:39" itemprop="dateModified" datetime="2019-07-05T21:51:39+08:00">2019-07-05</time>
+              </span>
+            
+          
+
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">in</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/水质检测/" itemprop="url" rel="index"><span itemprop="name">水质检测</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          <br>
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h1 id="方法概要"><a href="#方法概要" class="headerlink" title="方法概要"></a>方法概要</h1><p>以福尔马肼聚合物作为浊度标准对照溶液，用散射光原理的浊度计测定水样的浊度。</p>
+<h1 id="适用范围"><a href="#适用范围" class="headerlink" title="适用范围"></a>适用范围</h1><p>适用于工业循环冷却水中浊度测定，测定范围0-50NTU。</p>
+<h1 id="仪器"><a href="#仪器" class="headerlink" title="仪器"></a>仪器</h1><p>浊度计：上海昕瑞WGZ-1型，美国哈希2100N。</p>
+<h1 id="材料、试剂"><a href="#材料、试剂" class="headerlink" title="材料、试剂"></a>材料、试剂</h1><p>##浊度标准溶液：400NTU；</p>
+<h2 id="浊度标准溶液：100NTU，将400NTU浊度标准溶液稀释至100NTU；"><a href="#浊度标准溶液：100NTU，将400NTU浊度标准溶液稀释至100NTU；" class="headerlink" title="浊度标准溶液：100NTU，将400NTU浊度标准溶液稀释至100NTU；"></a>浊度标准溶液：100NTU，将400NTU浊度标准溶液稀释至100NTU；</h2><h2 id="浊度标准溶液：哈希浊度计20NTU、200NTU、1000NTU、4000NTU标准校正溶液。"><a href="#浊度标准溶液：哈希浊度计20NTU、200NTU、1000NTU、4000NTU标准校正溶液。" class="headerlink" title="浊度标准溶液：哈希浊度计20NTU、200NTU、1000NTU、4000NTU标准校正溶液。"></a>浊度标准溶液：哈希浊度计20NTU、200NTU、1000NTU、4000NTU标准校正溶液。</h2><h1 id="仪器准备"><a href="#仪器准备" class="headerlink" title="仪器准备"></a>仪器准备</h1><h2 id="开机：打开仪器电源开关，预热30min；"><a href="#开机：打开仪器电源开关，预热30min；" class="headerlink" title="开机：打开仪器电源开关，预热30min；"></a>开机：打开仪器电源开关，预热30min；</h2><p>对于美国哈希浊度计还需要设置量程和单位：<br>按“RANGE（量程）”键，选择自动量程，再按“UNITS（单位）”键，选择“NTU”单位。</p>
+<h2 id="校正"><a href="#校正" class="headerlink" title="校正"></a>校正</h2><h3 id="上海昕瑞浊度计"><a href="#上海昕瑞浊度计" class="headerlink" title="上海昕瑞浊度计"></a>上海昕瑞浊度计</h3><p>用擦镜纸擦净试样瓶的水迹和指印，将零浊度水（超纯水）倒入试样杯内至刻度线，然后旋上瓶盖，并擦净瓶体的水迹及指印，同时应注意使用时不要用手直接拿瓶体，以免留上指印，影响测量精度。<br>将装好的零浊度水试样杯，放入试样池内，使试样杯上“十”刻度线与试样座上的白色定位线对准，然后盖上避光盖，稍等读数稳定后调节调零旋钮，使读数显示为零。<br>采用同样的方法注入校准用的100NTU 标准溶液，并放入试样池内，调节校正钮，使显示为标准值100NTU。</p>
+<h3 id="美国哈希浊度计"><a href="#美国哈希浊度计" class="headerlink" title="美国哈希浊度计"></a>美国哈希浊度计</h3><p>按“CAL（校正）”键，CAL（校正）模式指示灯变亮，且数据位将闪烁“00”字样，选择标有“StablCal（标准溶液）”字样的标准样品管，将溶液管插入浊度计的样品池中，使溶液管上“▽”与仪器中试样座上的定位线对准，盖上样品池盖，按“ENTER（确认）”键，开始检测，检测结束后仪器自动跳转到下一个标准溶液的测定，依据提示分别将20NTU、200NTU、1000NTU、4000NTU的标准溶液按照上述步骤进行测定，测定结束后，按“CAL（校正）”键，仪器将自动更新并保存新的校准数据。</p>
+<h1 id="样品检测"><a href="#样品检测" class="headerlink" title="样品检测"></a>样品检测</h1><h2 id="上海昕瑞浊度计-1"><a href="#上海昕瑞浊度计-1" class="headerlink" title="上海昕瑞浊度计"></a>上海昕瑞浊度计</h2><p>将浊度试样瓶清洗干净，擦干备用。<br>将混合均匀的水样倒至浊度试样瓶中至刻度，摇匀，然后旋上瓶盖，并用擦镜纸擦净瓶体的水迹及指印，同时应注意使用时不要用手直接拿瓶体，以免留上指印。放入试样池内，使试样杯上“十”刻度线与试样座上的白色定位线对准，然后盖上避光盖，测定浊度，待读数稳定后记录结果。<br><strong>注意：定期使用硅油擦拭浊度试样瓶。</strong></p>
+<h2 id="美国哈希浊度计-1"><a href="#美国哈希浊度计-1" class="headerlink" title="美国哈希浊度计"></a>美国哈希浊度计</h2><p>将混合均匀的水样倒至浊度试样瓶中至刻度，摇匀，然后旋上瓶盖，并用擦镜纸擦净瓶体的水迹及指印，同时应注意使用时不要用手直接拿瓶体，以免留上指印，然后放入样品池内，将试样瓶上“▽”与仪器中试样座上的定位线对准，盖上避光盖，按“ENTER（确认）”键测定浊度，待读数稳定后记录# 结果。<br><strong>注意：定期使用硅油擦拭浊度试样瓶。</strong></p>
+<h1 id="质量控制"><a href="#质量控制" class="headerlink" title="质量控制"></a>质量控制</h1><p>两次平行测定结果绝对差值、重复性、重复性绝对差值要求见下表。</p>
+<table>
+<thead>
+<tr>
+<th align="left">浊度(NTU)</th>
+<th align="left">≤1.0</th>
+<th align="left">1~10</th>
+<th align="left">10~50</th>
+<th align="left">&gt;50</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">平行性(NTU)</td>
+<td align="left">≤0.1</td>
+<td align="left">≤0.2</td>
+<td align="left">≤0,5</td>
+<td align="left">≤2.0</td>
+</tr>
+</tbody></table>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/11/17/水中磷酸盐含量的测定-分光光度法/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="杨旭洋">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="惊蛰">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2018/11/17/水中磷酸盐含量的测定-分光光度法/" class="post-title-link" itemprop="url">水中磷酸盐含量的测定-分光光度法</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+
+          
+          
+          
+
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Veröffentlicht am</span>
+              
+
+              
+                
+              
+
+              <time title="Erstellt: 2018-11-17 16:24:11" itemprop="dateCreated datePublished" datetime="2018-11-17T16:24:11+08:00">2018-11-17</time>
+            </span>
+          
+
+          
+            
+
+            
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Bearbeitet am</span>
+                
+                <time title="Geändert am: 2019-07-05 21:51:39" itemprop="dateModified" datetime="2019-07-05T21:51:39+08:00">2019-07-05</time>
+              </span>
+            
+          
+
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">in</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/水质检测/" itemprop="url" rel="index"><span itemprop="name">水质检测</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          <br>
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+             <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="470" height="180" src="//music.163.com/outchain/player?type=2&id=35270161&auto=1&height=66"></iframe>
+
+<h1 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h1><p>本方法用于水中正磷酸盐和总磷酸盐含量的测定。</p>
+<h1 id="正磷酸盐的测定"><a href="#正磷酸盐的测定" class="headerlink" title="正磷酸盐的测定"></a>正磷酸盐的测定</h1><h2 id="方法概要"><a href="#方法概要" class="headerlink" title="方法概要"></a>方法概要</h2><p>在酸性条件下，正磷酸盐与钼酸铵溶液反应生成黄色的磷钼酸盐锑络合物，再用抗坏血酸还原成磷钼蓝，于710nm最大吸收波长处用分光光度法测定，反应式为：</p>
+<p><code> $$12(NH_4 )MoO_4 + H_2PO_{4}^- +24H^+   这里有两个化学反应方程式，贼拉长的那种，敲了一点敲不下去了，阅读时自行想象一下<br></code></p>
+<h2 id="适用范围"><a href="#适用范围" class="headerlink" title="适用范围"></a>适用范围</h2><p>适用于锅炉用水和冷却水中正磷酸盐含量（以$PO_{4}^{3-­}$  计）在0.05-50mg/L的测定。</p>
+<h2 id="仪器"><a href="#仪器" class="headerlink" title="仪器"></a>仪器</h2><p>紫外分光光度计：北京普析TU-1810。</p>
+<h2 id="材料、试剂"><a href="#材料、试剂" class="headerlink" title="材料、试剂"></a>材料、试剂</h2><p>比色皿：1cm；<br>比色管：50mL；<br>磷酸氢二钾；<br>硫酸：1+1；<br>抗坏血酸：100g/L ；<br>硫酸：1.5mol/L；<br>钼酸铵溶液：26g/L；<br>磷标准贮备溶液（1mL含有0.5mg磷酸根）：称取0.7165g预先在100℃～105℃干燥并已经恒重过的磷酸二氢钾，精确至0.0002g，溶于500mL水中，然后移至1000mL的容量瓶中，用水稀释至刻度，摇匀；<br>磷标准溶液（1mL含有0.02mg磷酸根）：取20.00mL上述磷标准贮备溶液于500mL容量瓶中，用水稀释至刻度摇匀。</p>
+<h2 id="仪器准备"><a href="#仪器准备" class="headerlink" title="仪器准备"></a>仪器准备</h2><p>打开仪器电源开关，仪器开始进入自检状态，仪器自检过程中，确保仪器试样池盖处于关闭状态，否则自检无法通过；待仪器自检完成后，预热30min。</p>
+<h3 id="仪器校准"><a href="#仪器校准" class="headerlink" title="仪器校准"></a>仪器校准</h3><p>分别取0.00mL（空白）、1.00mL、2.00mL、3.00mL、4.00mL、5.00mL、6.00mL、7.00mL、8.00mL磷标准溶液于9支50mL容量瓶中，用水稀释至约40mL，依次加入2.00mL钼酸铵溶液，1.00mL抗坏血酸溶液，用水稀释至刻度摇匀，室温下放置10min，在分光光度计710nm处用1cm比色皿，以空白调零测定吸光度。由标准溶液浓度为横坐标，以吸光度做纵坐标，制作标准一元回归曲线。</p>
+<h2 id="样品检测"><a href="#样品检测" class="headerlink" title="样品检测"></a>样品检测</h2><p>移取10.00mL的试样于50mL容量瓶中，加入2.00mL钼酸铵溶液，1.00mL抗坏血酸溶液，用水稀释至刻度，室温下放置10min，在分光光度计710nm处用1cm比色皿，以空白调零测其吸光度，并读取测定结果。<br>实际检测过程中，应根据样品中正磷酸盐含量的大小适当增大或减少取样体积。</p>
+<h2 id="计算"><a href="#计算" class="headerlink" title="计算"></a>计算</h2><p>正磷酸盐含量C（以$PO_{4}^{3-}­$ 计），按下式计算：<br> $$C=C_x\times \cfrac{50}{V}$$<br>式中：<br>$C_x$——分光光度计直接读取结果，mg/L；<br>V——移取样品体积，mL。</p>
+<h2 id="结果表示"><a href="#结果表示" class="headerlink" title="结果表示"></a>结果表示</h2><p>分析结果的数值按<strong>GB 8170-2008《数值修约规则与极限数值的表示和判定》</strong>中的数值修约规则进行修约，结果保留至小数点后2位。</p>
+<h2 id="质量控制"><a href="#质量控制" class="headerlink" title="质量控制"></a>质量控制</h2><p>两次平行测定结果绝对差值不大于0.10mg/L；</p>
+<h1 id="总磷酸盐含量的测定"><a href="#总磷酸盐含量的测定" class="headerlink" title="总磷酸盐含量的测定"></a>总磷酸盐含量的测定</h1><h2 id="方法概要-1"><a href="#方法概要-1" class="headerlink" title="方法概要"></a>方法概要</h2><p>在酸性溶液中，用过硫酸钾分解剂，将聚磷酸盐和有机膦转化成正磷酸盐，正磷酸盐与钼酸铵反应生成黄色的磷锑络合物，再用抗坏血酸将其还原成磷钼蓝，于710nm最大吸收波长处，用分光光度计测定，反应方程式同2.1。</p>
+<h2 id="适用范围-1"><a href="#适用范围-1" class="headerlink" title="适用范围"></a>适用范围</h2><p>适用于锅炉用水和冷却水中总磷酸盐含量（以$PO_{4}^{3­-}$ 计）在0.05-50 mg/L测定。</p>
+<h2 id="仪器-1"><a href="#仪器-1" class="headerlink" title="仪器"></a>仪器</h2><p>紫外分光光度计：北京普析TU-1810。</p>
+<h2 id="材料、试剂-1"><a href="#材料、试剂-1" class="headerlink" title="材料、试剂"></a>材料、试剂</h2><p>锥形瓶：250mL；<br>过硫酸钾溶液：40g/L，称取20g过硫酸钾，精确至0.5g，溶于500mL水中，摇匀，贮存于棕色瓶中，该溶液有效期为1个月；<br>其它材料试剂同正磷酸盐。</p>
+<h2 id="仪器准备-1"><a href="#仪器准备-1" class="headerlink" title="仪器准备"></a>仪器准备</h2><p>打开仪器电源开关，仪器开始进入自检状态，仪器自检过程中，确保仪器试样池盖处于关闭状态，否则自检无法通过，待仪器自检完成后，预热30min。</p>
+<h3 id="仪器校准-1"><a href="#仪器校准-1" class="headerlink" title="仪器校准"></a>仪器校准</h3><p>分别取0.00mL（空白）、0.50mL、1.00mL、3.00mL、5.00mL、10.00mL、15.00mL磷标准溶液于7支100mL锥形瓶中，加水至25mL,加入1.00mL（1+35）硫酸，使pH值小于1；再加入5.00mL过硫酸钾溶液，小火煮沸近30min，煮沸时，随时添加水使体积保持在25<del>30mL之间，取下冷却至室温。<br>用氢氧化钠溶液将pH调节至3</del>10，转移至50mL容量瓶中，加入2.00mL钼酸铵溶液，1.00mL抗坏血酸溶液，用水稀释至刻度，摇匀，于室温下放置10min。在分光光度计710nm处用1cm比色皿，以空白调零测定吸光度。以标准溶液浓度为横坐标，以吸光度做纵坐标，制作标准曲线。</p>
+<h2 id="样品检测-1"><a href="#样品检测-1" class="headerlink" title="样品检测"></a>样品检测</h2><p>移取10.00mL的试样于100mL锥形瓶中，加入1.00mL（1+35）硫酸，使pH值小于1；再加入5.00mL过硫酸钾溶液，小火煮沸近30min，煮沸时，随时添加水使体积保持在25<del>30mL之间，取下冷却至室温。<br>用氢氧化钠溶液将pH调节至3</del>10，转移至50mL容量瓶中，加入2.00mL钼酸铵溶液，1.00mL抗坏血酸溶液，用水稀释至刻度，摇匀，于室温下放置10min。在分光光度计710nm处用1cm比色皿，以空白调零测定吸光度，直接读取测定结果。</p>
+<h2 id="计算-1"><a href="#计算-1" class="headerlink" title="计算"></a>计算</h2><p>总磷酸盐含量C（以$PO_{4}^3­-$ 计），按下式计算：<br> $$C=C_x\times \cfrac{50}{V}$$<br>式中：<br>$C_x$——分光光度计直接读取结果，mg/L；<br>V——移取样品体积，mL。</p>
+<h2 id="结果表示-1"><a href="#结果表示-1" class="headerlink" title="结果表示"></a>结果表示</h2><p>分析结果的数值按GB 8170-2008《数值修约规则与极限数值的表示和判定》中的数值修约规则进行修约，结果保留至小数点后2位。</p>
+<h2 id="质量控制-1"><a href="#质量控制-1" class="headerlink" title="质量控制"></a>质量控制</h2><p>总磷酸盐含量≤10.00mg/L，两次平行测定结果绝对差值≤0.50mg/L；<br>总磷酸盐含量＞10.00mg/L，两次平行测定结果绝对差值＜1.00mg/L。</p>
+<h2 id="附件"><a href="#附件" class="headerlink" title="附件"></a>附件</h2><p>引用标准<strong>GB/T 6913-2008《锅炉用水和冷却水分析方法磷酸盐的测定》</strong>。</p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/11/17/水中总硬度的测定-滴定法/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="杨旭洋">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="惊蛰">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2018/11/17/水中总硬度的测定-滴定法/" class="post-title-link" itemprop="url">水中总硬度的测定-滴定法</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+
+          
+          
+          
+
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Veröffentlicht am</span>
+              
+
+              
+                
+              
+
+              <time title="Erstellt: 2018-11-17 15:34:00" itemprop="dateCreated datePublished" datetime="2018-11-17T15:34:00+08:00">2018-11-17</time>
+            </span>
+          
+
+          
+            
+
+            
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Bearbeitet am</span>
+                
+                <time title="Geändert am: 2019-07-05 21:51:39" itemprop="dateModified" datetime="2019-07-05T21:51:39+08:00">2019-07-05</time>
+              </span>
+            
+          
+
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">in</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/水质检测/" itemprop="url" rel="index"><span itemprop="name">水质检测</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          <br>
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="470" height="86" src="//music.163.com/outchain/player?type=2&id=4425889&auto=1&height=66"></iframe>
+
+<h1 id="高硬度的测定"><a href="#高硬度的测定" class="headerlink" title="高硬度的测定"></a>高硬度的测定</h1><h2 id="方法概要"><a href="#方法概要" class="headerlink" title="方法概要"></a>方法概要</h2><p>在pH=10±0.1的水溶液中，用铬黑T作指示剂，以乙二胺四乙酸二钠盐(EDTA)标准滴定溶液滴定至蓝色，即为终点，根据消耗EDTA的体积，即可算出硬度值。<br>若水样中铁含量大于2mg/L、铝含量大于2mg/L，铜含量大于0.01mg/L，锰含量大于0.1mg/L，对测定有干扰，可在加指示剂前用2mL L-半胱氨酸盐酸盐溶液和2mL三乙醇胺溶液进行联合掩蔽消除干扰。</p>
+<h2 id="适用范围"><a href="#适用范围" class="headerlink" title="适用范围"></a>适用范围</h2><p>本方法适用于天然水、冷却水、软化水和锅炉给水水样硬度的测定，测定范围为1~500mg/L（以$CaCO_3$计），硬度超过500mg/L时，可适当减少取样体积，稀释至100mL后测定。</p>
+<h2 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h2><p>硬度：指溶解在水中的盐类物质的含量，即钙盐与镁盐含量的多少。</p>
+<h2 id="材料、试剂"><a href="#材料、试剂" class="headerlink" title="材料、试剂"></a>材料、试剂</h2><p>锥形瓶：250mL；<br>滴定管：酸式，50mL；<br>移液管：10mL；<br>三乙醇胺溶液：1+4；<br>氨－氯化铵缓冲溶液：pH=10；<br>铬黑T指示剂：5g/L；<br>乙二胺四乙酸二钠标准滴定溶液（EDTA）：$c_{(EDTA)}$=0.01mol/L.</p>
+<h2 id="样品检测"><a href="#样品检测" class="headerlink" title="样品检测"></a>样品检测</h2><p>移取水样25mL，移入250mL锥形瓶中，如果水样混浊，取样前应过滤。加入2mL三乙醇胺，再加入5mL氨-氯化铵缓冲溶液，2～4滴铬黑T指示剂，用0.01mol/L EDTA标准溶液滴定至溶液由酒红色变为纯蓝色即为终点，同时做空白试验。</p>
+<h2 id="计算"><a href="#计算" class="headerlink" title="计算"></a>计算</h2><p>水样中总硬度含量X(mg/L，以$CaCO_3$计 )，按下式计算：<br>      $$X=\cfrac{\cfrac{100}{V_1-V_0}\times C \times M}{\cfrac{1000}{V_W}}\times1000=\cfrac{(V_1-V_0)\times C\times100.08}{V_W}\times1000$$<br>式中<br>$V_1$——滴定水样消耗EDTA标准滴定液的体积，mL；<br>$V_0$——滴定空白溶液消耗EDTA标准液的体积，mL；<br>C——EDTA标准溶液浓度，mol/L；<br>$V_W$——水样体积，mL；<br>M——碳酸钙摩尔质量（100.08），g/mol。</p>
+<h2 id="结果表示"><a href="#结果表示" class="headerlink" title="结果表示"></a>结果表示</h2><p>分析结果的数值按<strong>GB 8170-2008《数值修约规则与极限数值的表示和判定》</strong>中的数值修约规则进行修约，结果保留小数点后两位；</p>
+<h2 id="质量控制"><a href="#质量控制" class="headerlink" title="质量控制"></a>质量控制</h2><p>两次平行测定结果绝对差值不大于8mg/L；</p>
+<h4 id="重复性："><a href="#重复性：" class="headerlink" title="重复性："></a>重复性：</h4><p>重复性测定结果之间差值不大于16mg/L；</p>
+<h4 id="再现性："><a href="#再现性：" class="headerlink" title="再现性："></a>再现性：</h4><p>再现性测定结果之间差值不大于32mg/L。</p>
+<h1 id="低硬度的测定"><a href="#低硬度的测定" class="headerlink" title="低硬度的测定"></a>低硬度的测定</h1><h2 id="方法概要-1"><a href="#方法概要-1" class="headerlink" title="方法概要"></a>方法概要</h2><p>在pH=10±0.1时水溶液中，用酸性铬蓝K作指示剂，以乙二胺四乙酸二钠盐（EDTA）标准滴定溶液滴定至蓝色为终点。根据消耗的EDTA的体积，即可计算出硬度值。<br>当水样中铁含量大于2mg/L、铝含量大于2mg/L，铜含量大于0.01mg/L，锰含量大于0.1mg/L，对测定有干扰，可在加指示剂前用2mLL-半胱氨酸盐酸盐溶液和2mL三乙醇胺溶液进行联合掩蔽消除干扰。</p>
+<h2 id="适用范围-1"><a href="#适用范围-1" class="headerlink" title="适用范围"></a>适用范围</h2><p>本方法适用于天然水、冷却水、软化水、锅炉水中低硬度的测定，测定范围为1µmol/L~100µmol/L。</p>
+<h2 id="材料、试剂-1"><a href="#材料、试剂-1" class="headerlink" title="材料、试剂"></a>材料、试剂</h2><p>锥形瓶：250mL；<br>滴定管：微量滴定管，5mL；<br>移液管：100mL；<br>硼砂缓冲溶液：称取40g硼砂($Na_2 P_4 O_7.10H_2 O$)，加10g氢氧化钠溶解于水并稀释至1L，贮于塑料瓶中（硼砂缓冲溶液也可用氨-氯化铵缓冲溶液代替使用）；<br>三乙醇胺溶液：1+4(实验室标准溶液与蒸馏水1:4）；<br>酸性铬蓝K指示剂：5g/L；<br>乙二胺四乙酸二钠标准滴定溶液（EDTA）：$c_{(EDTA)}$=0.005mol/L；</p>
+<h2 id="样品检测-1"><a href="#样品检测-1" class="headerlink" title="样品检测"></a>样品检测</h2><p>移取水样100mL于250mL锥形瓶中，加入2mL三乙醇胺溶液，再加入1mL硼砂缓冲溶液，2～3滴铬蓝K指示剂，在不断摇动下，用0.005mol/L EDTA标准溶液滴定，在接近终点时应缓慢滴定，溶液由红色转为蓝色即为终点，同时做空白试验。</p>
+<h2 id="计算-1"><a href="#计算-1" class="headerlink" title="计算"></a>计算</h2><p>低硬度含量以质量浓度$C_2$计，数值以umol/L表示，按下公式计算：<br> $$C_2=\cfrac{(V_1-V_0)\times C\times10^6}{V}$$<br>式中：<br>$V_1$——滴定水样消耗EDTA标准滴定液的体积，mL；<br>$V_0$——滴定空白溶液消耗EDTA标准液的体积，mL；<br>C——EDTA标准滴定溶液的浓度， mol/L；<br>V——水样体积， mL 。  </p>
+<h2 id="结果与记录"><a href="#结果与记录" class="headerlink" title="结果与记录"></a>结果与记录</h2><p>结果表示<br>分析结果的数值按<strong>GB 8170-2008《数值修约规则与极限数值的表示和判定》</strong>中的数值修约规则进行修约，结果保留小数点后一位。</p>
+<h2 id="质量控制-1"><a href="#质量控制-1" class="headerlink" title="质量控制"></a>质量控制</h2><p>两次平行测定结果绝对差值不大于1.0μmol/L。</p>
+<h4 id="重复性：-1"><a href="#重复性：-1" class="headerlink" title="重复性："></a>重复性：</h4><p>重复性测定结果之间差值不大于2.0μmol/L；</p>
+<p>####<br>再现性：再现性测定结果之间差值不大于4.0μmol/L。</p>
+<h2 id="附件"><a href="#附件" class="headerlink" title="附件"></a>附件</h2><p>引用标准 <strong>GB/T 6909-2018 《 锅炉用水和冷却水分析方法硬度的测定》</strong>。</p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/11/17/水中总碱及酚酞碱度的测定-滴定法/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="杨旭洋">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="惊蛰">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2018/11/17/水中总碱及酚酞碱度的测定-滴定法/" class="post-title-link" itemprop="url">水中总碱及酚酞碱度的测定-滴定法 </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+
+          
+          
+          
+
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Veröffentlicht am</span>
+              
+
+              
+                
+              
+
+              <time title="Erstellt: 2018-11-17 14:50:57" itemprop="dateCreated datePublished" datetime="2018-11-17T14:50:57+08:00">2018-11-17</time>
+            </span>
+          
+
+          
+            
+
+            
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Bearbeitet am</span>
+                
+                <time title="Geändert am: 2019-07-05 21:51:39" itemprop="dateModified" datetime="2019-07-05T21:51:39+08:00">2019-07-05</time>
+              </span>
+            
+          
+
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">in</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/水质检测/" itemprop="url" rel="index"><span itemprop="name">水质检测</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          <br>
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="470" height="86" src="//music.163.com/outchain/player?type=2&id=4405800&auto=1&height=66"></iframe>
+
+<h2 id="方法概要"><a href="#方法概要" class="headerlink" title="方法概要"></a>方法概要</h2><p>采用指示剂法，用盐酸标准滴定溶液滴定水样，终点为pH=8.3时，可认为近似等于碳酸盐和二氧化碳的浓度并表示水样中存在的几乎所有的氢氧化物和二分之一的碳酸盐已被滴定。终点pH=4.5时，可认为近似等于所有氢离子和碳酸氢根离子的等当点，可用于测定水样的总碱度。</p>
+<h2 id="适用范围"><a href="#适用范围" class="headerlink" title="适用范围"></a>适用范围</h2><p>适用于工业循环水中碱度在1000mg/L（以$CaCO_3$计）的范围内的测定，也适用于天然水和废水中碱度的测定。</p>
+<h2 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h2><p>碱度（A）：水中能与H+发生反应的物质总量；<br>酚酞碱度（$A_P$）：通过滴定以酚酞为指示剂的滴定终点（pH=8.3），随机测定水中全部氢氧化物和二分之一碳酸盐浓度；<br> $$A_P=c(CO_{3}^-)-c(CO_2 aq)+c(OH^-)-c(H^+)+c(X)$$<br>甲基橙或甲基红碱度（$A_T$）：通过滴定以甲基橙或甲基红为指示剂的滴定终点（pH=4.5），随机测定水中的总碱度（$A_T$），以确定水中碳酸氢盐、碳酸盐和氢氧化物的浓度；<br> $$A_T=c(HCO_{3}^-)+2c(CO_{3}^2-)+c(OH^-)-c(H^+)+c(X)$$<br>注：X为氨、硼酸盐、磷酸盐、硅酸盐和有机离子。</p>
+<h2 id="材料、试剂"><a href="#材料、试剂" class="headerlink" title="材料、试剂"></a>材料、试剂</h2><p>锥形瓶：250mL；<br>酸式滴定管：微量滴定管，10mL；<br>酚酞指示液：5g/L乙醇溶液；<br>溴甲酚绿一甲基红指示液；<br>盐酸标准溶液：0.1mol/L。</p>
+<h2 id="样品检测"><a href="#样品检测" class="headerlink" title="样品检测"></a>样品检测</h2><h3 id="酚酞碱度的测定"><a href="#酚酞碱度的测定" class="headerlink" title="酚酞碱度的测定"></a>酚酞碱度的测定</h3><p>移取50mL水样于250mL锥形瓶中，加2滴（0.1±0.02mL）酚酞指示液，若无粉红色出现，则认为酚酞碱度为0，若出现粉红色，用盐酸标准溶液滴定至粉红色刚好消失，既为终点，记录消耗盐酸标准溶液体积$V_1$。</p>
+<h3 id="总碱度的测定"><a href="#总碱度的测定" class="headerlink" title="总碱度的测定"></a>总碱度的测定</h3><p>再滴加2滴（0.1±0.02mL）溴甲酚绿一甲基红指示剂于滴定至pH=8.3的测定酚酞碱度的溶液中，用盐酸标准溶液滴定至溶液颜色由蓝绿色变成暗红色，煮沸2min，冷却后继续滴定至暗红色既为终点，记录消耗盐酸标准溶液总体积$V_2$（包含$V_1$）。</p>
+<h2 id="计算"><a href="#计算" class="headerlink" title="计算"></a>计算</h2><h3 id="酚酞碱度-A-P"><a href="#酚酞碱度-A-P" class="headerlink" title="酚酞碱度$A_P$"></a>酚酞碱度$A_P$</h3><p> $$A_p=\cfrac{V_1\times C\times50.04\times1000}{V_样}$$<br>式中 ：</p>
+<p>C——盐酸标准溶液浓度，mol/L；<br>$V_1$—— 滴定酚酞碱度消耗盐酸标准溶液体积，mL；<br>$V_样$—— 移取水样体积，mL；<br>50.04—— 1/2$CaCO_3$的摩尔质量，g/mol。</p>
+<h3 id="总碱度-A-t"><a href="#总碱度-A-t" class="headerlink" title="总碱度$A_t$"></a>总碱度$A_t$</h3><p> $$A_T=\cfrac{V_2\times C\times50.04\times1000}{V_样}$$<br>式中：</p>
+<p>C——盐酸标准溶液浓度，mol/L；<br>$V_2$——滴定总碱度消耗盐酸标准溶液体积，mL；<br>$V_样$——移取水样体积，mL；<br>50.04——1/2$CaCO_3$的摩尔质量，g/mol。</p>
+<h2 id="结果表示"><a href="#结果表示" class="headerlink" title="结果表示"></a>结果表示</h2><p>分析结果的数值按<strong>GB 8170-2008《数值修约规则与极限数值的表示和判定》</strong>中的数值修约规则进行修约，测定结果以$CaCO_3$计，结果保留小数点后两位。</p>
+<h2 id="质量控制"><a href="#质量控制" class="headerlink" title="质量控制"></a>质量控制</h2><p>平行测定结果允许差为2.0mg/L；<br>重复性：重复性测定结果之间差值不大于5mg/L；<br>再现性：再现性测定结果之间差值不大于10mg/L。</p>
+<h2 id="附件"><a href="#附件" class="headerlink" title="附件"></a>附件</h2><p>引用标准  <strong>GB/T 15451-2006  《工业循环冷却水中总碱度测定》</strong>。</p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/11/17/Vscode前端快捷键及字符补全方法/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="杨旭洋">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="惊蛰">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2018/11/17/Vscode前端快捷键及字符补全方法/" class="post-title-link" itemprop="url">Vscode前端快捷键及字符补全方法</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+
+          
+          
+          
+
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Veröffentlicht am</span>
+              
+
+              
+                
+              
+
+              <time title="Erstellt: 2018-11-17 14:50:57" itemprop="dateCreated datePublished" datetime="2018-11-17T14:50:57+08:00">2018-11-17</time>
+            </span>
+          
+
+          
+            
+
+            
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Bearbeitet am</span>
+                
+                <time title="Geändert am: 2019-07-05 22:28:11" itemprop="dateModified" datetime="2019-07-05T22:28:11+08:00">2019-07-05</time>
+              </span>
+            
+          
+
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          <br>
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <ol>
+<li>快捷键的使用<!-- |快捷键|说明|
+|:---:|:---:|
+|Tab|补全代码|
+|Ctrl+/|添加或取消注释|
+|Ctrl++/-|放大或缩小|
+|F12|浏览器中为调试| --></li>
+<li>补全代码</li>
+</ol>
+<ul>
+<li>多项输入: <em>,例如：ul&gt;li</em>5<ul> 
+<li></li> 
+<li></li> 
+<li></li> 
+<li></li> 
+<li></li> 
+</ul> </li>
+<li>Class类：. , 缩写：div.top*2（Class类可以多次使用）<div class="top"></div> 
+<div class="top"></div> 
+
+</li>
+</ul>
+<p>缩写：p.class1.class2.class3 </p>
+<p class="class1 class2 class3"></p> 
++ Id类：# , 缩写：div#top(一个Id类只能使用一次) 
+<div id="top"></div> 
+
+<p>缩写：form#search.wide </p>
+<form id="search" class="wide"></form> 
++ 自增符号：$ , 缩写：ul>li.item$*5 
+<ul> 
+<li class="item1"></li> 
+<li class="item2"></li> 
+<li class="item3"></li> 
+<li class="item4"></li> 
+<li class="item5"></li> 
+</ul> 
++ 子元素：> , 缩写： nav>ul>li 
+<nav> 
+<ul> 
+<li></li> 
+</ul> 
+</nav> 
++ 兄弟元素：+ , 缩写：div+div>p>span+em 
+css 
+<div></div> 
+<div> 
+<p><span></span><em></em></p> 
+</div> 
++ 自定义属性：[] 
+缩写：p[title=”Hello world”] 
+css 
+<p title="Hello world"></p> 
+
+<p>缩写：td[rowspan=2 colspan=3 title]<br>css </p>
+<td rowspan="2" colspan="3" title></td> 
+
+<p>缩写：<a href="a,b为属性，value为属性值。具体使用见上面的例子">a=’value1’ b=”value2”</a><br>css </p>
+<div a="value1" b="value2"></div> 
+
+<ul>
+<li>文本：{}<br>缩写：a{Click me}<br>css<br><a href>Click me</a> </li>
+</ul>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/11/17/水质pH的测定-玻璃电极法/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="杨旭洋">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="惊蛰">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2018/11/17/水质pH的测定-玻璃电极法/" class="post-title-link" itemprop="url">水质pH的测定-玻璃电极法</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+
+          
+          
+          
+
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Veröffentlicht am</span>
+              
+
+              
+                
+              
+
+              <time title="Erstellt: 2018-11-17 14:20:12" itemprop="dateCreated datePublished" datetime="2018-11-17T14:20:12+08:00">2018-11-17</time>
+            </span>
+          
+
+          
+            
+
+            
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Bearbeitet am</span>
+                
+                <time title="Geändert am: 2019-07-05 21:51:39" itemprop="dateModified" datetime="2019-07-05T21:51:39+08:00">2019-07-05</time>
+              </span>
+            
+          
+
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">in</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/水质检测/" itemprop="url" rel="index"><span itemprop="name">水质检测</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          <br>
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h2 id="方法概要"><a href="#方法概要" class="headerlink" title="方法概要"></a>方法概要</h2><p>将规定的指示电极和参比电极浸入同一被测溶液中，形成原电池，pH由测量电池的电动势而得，通常由饱和的甘汞电极为参比电极，玻璃电极为指示电极。</p>
+<h2 id="适用范围"><a href="#适用范围" class="headerlink" title="适用范围"></a>适用范围</h2><p>适用于饮用水、地面水、工业废水、工业循环冷却水、锅炉用水中pH值在0-14范围内的测定，还适用于天然水、污水、除盐水、锅炉给水以及纯水的pH测定。</p>
+<h2 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h2><p>pH：pH为无量纲的量，pH=-lg[H+]。</p>
+<h2 id="仪器"><a href="#仪器" class="headerlink" title="仪器"></a>仪器</h2><p>酸度计：分度值为0.02pH单位 ；<br>玻璃指示电极：使用前须在水中浸泡24h，使用后立即清洗并浸泡于水中，若玻璃电极表面污染，可先用肥皂水洗，然后用水淋洗几次，再浸入盐酸（1+9）溶液中，以除去污物，最后用水洗净，浸入水中备用；<br>饱和甘汞电极：使用时电极上端小孔的橡皮塞必须拔出，以防止产生扩散电位影响测定结果，电极内氯化钾溶液中不能有气泡，以防止断路，溶液中应保持有少许氯化钾晶体，以保证氯化钾溶液的饱和；<br>复合电极：使用时电极上端小孔的橡皮塞必须拔出，以防止产生扩散电位影响测定结果，电极内填充3mol/L氯化钾溶液且不能有气泡，使用后应将电极浸泡于饱和氯化钾中，不得裸露在空气中。</p>
+<h2 id="材料、试剂"><a href="#材料、试剂" class="headerlink" title="材料、试剂"></a>材料、试剂</h2><p>烧杯：100mL；<br>pH=6.86（25℃）的缓冲溶液；<br>pH=9.18（25℃）的缓冲溶液；<br>pH=4.00（25℃）的缓冲溶液；<br>氯化钾溶液：3mol/L。</p>
+<h2 id="仪器准备"><a href="#仪器准备" class="headerlink" title="仪器准备"></a>仪器准备</h2><h3 id="开机：打开仪器电源开关，预热15-30min；"><a href="#开机：打开仪器电源开关，预热15-30min；" class="headerlink" title="开机：打开仪器电源开关，预热15-30min；"></a>开机：打开仪器电源开关，预热15-30min；</h3><p>电极清洗：用超纯水将电极清洗干净,用滤纸将电极上水分吸干。</p>
+<h3 id="校正"><a href="#校正" class="headerlink" title="校正"></a>校正</h3><p>将电极放入pH=6.86的标准缓冲溶液中，按“定位”键，调节pH计读数为6.86，按“确认”键。再将电极清洗干净后放入pH=9.18或pH=4.00的缓冲溶液中，按“斜率”键，调节pH计读数为9.18按“确认”键， 即完成两点标定。  </p>
+<h2 id="样品检测"><a href="#样品检测" class="headerlink" title="样品检测"></a>样品检测</h2><p>将电极用超纯水冲洗2～3次，再用水样冲洗电极，然后将电极浸入水样中，小心摇动使其均匀，静置，待读数稳定后记录pH结果。</p>
+<h2 id="结果表示"><a href="#结果表示" class="headerlink" title="结果表示"></a>结果表示</h2><p>分析结果的数值按<strong>GB 8170-2008《数值修约规则与极限数值的表示和判定》</strong>中的数值修约规则进行修约，结果精确至0.1pH单位。</p>
+<h2 id="质量控制"><a href="#质量控制" class="headerlink" title="质量控制"></a>质量控制</h2><p>平行测定结果的绝对差值不大于0.1pH单位；<br>重复性、再现性：见下表</p>
+<table><tr><th rowspan="2">pH范围</th><th colspan="2">允许差，pH单位</th></tr><tr><th>重复性</th><th>再现性</th></tr><tr><td>≤6</td><td>±0.1</td><td>±0.3</td></tr><tr><td>6-9</td><td>±0.1</td><td>±0.2</td></tr><tr><td>≥9</td><td>±0.2</td><td>±0.5</td></tr></table>
+
+<h2 id="附件"><a href="#附件" class="headerlink" title="附件"></a>附件</h2><p>引用标准<strong>GB 6920-86  《水质 pH的测定 玻璃电极法》</strong>；</p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/10/04/helloWorld/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="杨旭洋">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="惊蛰">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2018/10/04/helloWorld/" class="post-title-link" itemprop="url">hello_world</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+
+          
+          
+          
+
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Veröffentlicht am</span>
+              
+
+              
+                
+              
+
+              <time title="Erstellt: 2018-10-04 00:00:00" itemprop="dateCreated datePublished" datetime="2018-10-04T00:00:00+08:00">2018-10-04</time>
+            </span>
+          
+
+          
+            
+
+            
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Bearbeitet am</span>
+                
+                <time title="Geändert am: 2019-07-05 21:51:39" itemprop="dateModified" datetime="2019-07-05T21:51:39+08:00">2019-07-05</time>
+              </span>
+            
+          
+
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          <br>
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=29739000&auto=1&height=66"></iframe>
+
+
+
+<p>关于搭建自己的博客一直有这样的想法，起初没有头绪，在知乎上闲逛时知道了GitHub page，后来又了解了hexo。几经折腾，花了一个晚上看了一点教程，磕磕绊绊的完成了博客搭建的过程，好菜啊哈哈。</p>
+<p>做这些其实跟个人的兴趣相关吧，没兴趣玩游戏，打球的机会又不多，不太爱出门又没有女朋友。所以可以做这些和我有较多的空闲时间有关吧（这里说的空闲时间说的是放假期间）。工作时每天都希望能挤出一些时间看一点JavaScript和其他一些书。但这些时间确实很少，因为加班的缘故，感觉每天充电不够。也希望以后提高效率更希望以后的杂事少一点吧。</p>
+<p>3号高中同学结婚了，意识到自己可能不久也要娶妻，这些事确实够烦人的。希望能早点找到自己的真命天女 吧。</p>
+<p>Ps.今天晚间世锦赛女排输了，1:3不敌意大利队。</p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+  </section>
+
+  
+  <nav class="pagination">
+    <a class="extend prev" rel="prev" href="/"><i class="fa fa-angle-left" aria-label="Vorherige Seite"></i></a><a class="page-number" href="/">1</a><span class="page-number current">2</span>
+  </nav>
+
+
+
+          </div>
+          
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <p class="site-author-name" itemprop="name">杨旭洋</p>
+              <div class="site-description motion-element" itemprop="description"></div>
+          </div>
+
+          
+            <nav class="site-state motion-element">
+              
+                <div class="site-state-item site-state-posts">
+                
+                  <a href="/archives/">
+                
+                    <span class="site-state-item-count">19</span>
+                    <span class="site-state-item-name">Artikel</span>
+                  </a>
+                </div>
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-categories">
+                  
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">3</span>
+                    <span class="site-state-item-name">Kategorien</span>
+                  
+                </div>
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-tags">
+                  
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">16</span>
+                    <span class="site-state-item-name">schlagwörter</span>
+                  
+                </div>
+              
+            </nav>
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+          
+
+          
+            
+          
+          
+
+        </div>
+      </div>
+
+      
+
+      
+
+    </div>
+  </aside>
+  
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
+  <span class="with-love" id="animate">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">杨旭洋</span>
+
+  
+
+  
 </div>
-<div id="preview"></div>
+
+
+  <div class="powered-by">Erstellt mit  <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> v3.9.0</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">Design – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a> v7.2.0</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+    
+
+    
+  </div>
+
+  
+
+<script>
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script src="/lib/jquery/index.js?v=3.4.1"></script>
+
+  
+  <script src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+
+  
+
+
+  <script src="/js/utils.js?v=7.2.0"></script>
+
+  <script src="/js/motion.js?v=7.2.0"></script>
+
+
+
+  
+  
+
+
+  <script src="/js/schemes/muse.js?v=7.2.0"></script>
+
+
+
+  
+
+  
+
+
+  <script src="/js/next-boot.js?v=7.2.0"></script>
+
+
+  
+
+  
+
+  
+
+  
+
+
+
+  
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
 
 </body>
-<script src="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
-<script src="//lib.baomitu.com/jquery/1.8.3/jquery.min.js"></script>
-<script src="/js/plugin.js"></script>
-<script src="/js/diaspora.js"></script>
-<link rel="stylesheet" href="/photoswipe/photoswipe.css">
-<link rel="stylesheet" href="/photoswipe/default-skin/default-skin.css">
-<script src="/photoswipe/photoswipe.min.js"></script>
-<script src="/photoswipe/photoswipe-ui-default.min.js"></script>
-
-<!-- Root element of PhotoSwipe. Must have class pswp. -->
-<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
-    <!-- Background of PhotoSwipe. 
-         It's a separate element as animating opacity is faster than rgba(). -->
-    <div class="pswp__bg"></div>
-    <!-- Slides wrapper with overflow:hidden. -->
-    <div class="pswp__scroll-wrap">
-        <!-- Container that holds slides. 
-            PhotoSwipe keeps only 3 of them in the DOM to save memory.
-            Don't modify these 3 pswp__item elements, data is added later on. -->
-        <div class="pswp__container">
-            <div class="pswp__item"></div>
-            <div class="pswp__item"></div>
-            <div class="pswp__item"></div>
-        </div>
-        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
-        <div class="pswp__ui pswp__ui--hidden">
-            <div class="pswp__top-bar">
-                <!--  Controls are self-explanatory. Order can be changed. -->
-                <div class="pswp__counter"></div>
-                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
-                <button class="pswp__button pswp__button--share" title="Share"></button>
-                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
-                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
-                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
-                <!-- element will get class pswp__preloader--active when preloader is running -->
-                <div class="pswp__preloader">
-                    <div class="pswp__preloader__icn">
-                      <div class="pswp__preloader__cut">
-                        <div class="pswp__preloader__donut"></div>
-                      </div>
-                    </div>
-                </div>
-            </div>
-            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                <div class="pswp__share-tooltip"></div> 
-            </div>
-            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
-            </button>
-            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
-            </button>
-            <div class="pswp__caption">
-                <div class="pswp__caption__center"></div>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-
-
 </html>

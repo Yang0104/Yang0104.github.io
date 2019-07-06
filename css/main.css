@@ -1844,7 +1844,7 @@ pre .javascript .function {
   max-width: 120px;
   height: auto;
   border: 1px solid #eee;
-  opacity: 1;
+  opacity: 0.7;
 }
 .site-author-image {
   border-radius: 100%;
@@ -1888,7 +1888,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #e209d0;
+  background: #ba2d38;
 }
 .feed-link,
 .chat {

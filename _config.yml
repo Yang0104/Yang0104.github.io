@@ -77,7 +77,7 @@ theme: diaspora
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
-deploy:
-  type: git
-  repo: Yang0104/Yang0104.github.io.git
-  branch: master
+deploy: master
+  # type: git
+  # repo: Yang0104/Yang0104.github.io.git
+  # branch: master

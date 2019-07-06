@@ -77,7 +77,8 @@ theme: diaspora
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
-deploy: master
-  # type: git
-  # repo: Yang0104/Yang0104.github.io.git
-  # branch: master
+deploy: 
+  type: git
+  # 2019年7月6日迁移博客时疏忽此项格式，导致浪费4个小时。
+  repo: git@github.com:Yang0104/Yang0104.github.io.git
+  branch: master
